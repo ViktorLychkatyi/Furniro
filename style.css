@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.login_column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: sticky;
+    z-index: 5;
+}
+
+.logo_width {
+    cursor: pointer;
+}
+
+.nav_position {
+    display: flex;
+    justify-content: center;
+    align-items: center;                                
+    gap: 100px;
+    height: 100%;
+}
+
+.first_navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    cursor: pointer;
+}
+
+.second_navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.first_navigation div:hover {
+    color: rgb(66, 66, 66);
+}
+
+.second_navigation div:hover {
+    color: rgb(66, 66, 66);
+}
+
+#header {
+    background-image: url(img/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-position: center;
+    width: 100%;
+    height: 720px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.info_banner {
+    font-size: 52px;
+    color: #B88E2F;
+    line-height: 65px;
+    width: 400px;
+}
+
+.info_h1 {
+    font-size: 52px;
+    color: #B88E2F;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100vh;
+}
+
+.info {
+    width: 640px;
+    height: 440px;
+    background-color: #FFF3E3;
+    margin: 120px;
+}
+
+.info_header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+}
+
+.info_text {
+    font-weight: 500;
+}
+
+.button_shop {
+    background-color: #B88E2F;
+    width: 220px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    font-family: "Poppins", sans-serif;;
+}
+
+.button_shop:hover {
+     background-color: #d1a236;
+     cursor: pointer;
+}
+
+#our_products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.card_product {
+    width: 285px;
+    height: 445px;
+    background-color: #F4F5F7;
+}
+
+.card_product:hover {
+    transform: scale(1.1);
+    transition: 200ms; 
+    cursor: pointer;
+}
+
+.picture_product {
+    width: 285px;
+    height: 300px;
+    background-color: rgb(167, 158, 141);
+}
+
+.our_products_text {
+    margin: 50px;
+}
+
+.producer {
+    color: #898989;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price_old {
+    color: #B0B0B0;
+    text-decoration: line-through;
+}
+
+.info_product {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.price_row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards_products {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.picture_background {
+    width: 100%;
+    height: 315px;
+    background-position: center;
+    background-image: url(img/Rectangle\ 1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_basket {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 80px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.info_basket_category {
+    background-color: #F9F1E7;
+    width: 820px;
+    height: 55px;
+}
+
+.total_basket {
+    width: 390px;
+    height: 390px;
+    background-color: #F9F1E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.basket_row{
+    display: flex;
+    gap: 30px;
+}
+
+.info_basket_category{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    font-weight: bold;
+}
+
+.check_out {
+    border-width: 1px solid black;
+    font-size: 24px;
+    background-color: none;
+    border-style: black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.check_out:hover {
+    cursor: pointer;
+    background-color: #dddddd;
+}
+
+.info_subtotal {
+    display: flex;
+    gap: 30px;
+}
+
+.info_total {
+    display: flex;
+    gap: 30px;
+}
+
+.info_basket_product {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.info_basket_picture{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+/* ----- */
+
+footer {
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(207, 207, 207);
+    border-width: 1px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
