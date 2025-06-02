@@ -13,11 +13,26 @@ html {
   scroll-behavior: smooth;
 }
 
-.login_column{
+#login_form{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
     width: 250px;
+}
+
+.button_login {
+    background-color: #B88E2F;
+    width: 250px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+input {
+    padding: 10px;
 }
 
 a {
@@ -141,7 +156,7 @@ h3 {
     font-weight: bold;
     color: white;
     border-style: none;
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
 }
 
 .button_shop:hover {
@@ -154,13 +169,22 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px;
+    width: 100%;
+    gap: 20px;
+    margin: 50px 0px 50px 0px;
 }
 
 .card_product {
     width: 285px;
     height: 445px;
     background-color: #F4F5F7;
+}
+
+.cards_position {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .card_product:hover {
@@ -194,12 +218,6 @@ h3 {
     text-decoration: line-through;
 }
 
-.info_product {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-}
-
 .price_row {
     display: flex;
     align-items: center;
@@ -211,6 +229,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
     gap: 30px;
 }
 
@@ -273,6 +292,54 @@ h3 {
     width: 250px;
 }
 
+.counter {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 10%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter_min {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 10%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons_product_row {
+    display: flex;
+    gap: 20px;
+}
+
+.info_width {
+    width: 800px;
+}
+
+#decrease, #increase:hover {
+    cursor: pointer;
+    color: rgb(66, 66, 66);
+}
+
+.counter span {
+    font-size: 24px;
+}
+
+.counter button {
+    background: none;
+    border-style: none;
+}
+
+.counter_min button {
+    background: none;
+    border-style: none;
+}
+
 .check_out:hover {
     cursor: pointer;
     background-color: #dddddd;
@@ -302,7 +369,137 @@ h3 {
     background-color: red;
     width: 100px;
     height: 100px;
-    border-radius: 20px;
+}
+
+.card {
+    width: 285px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 250ms;
+}
+
+.card img {
+    width: auto;
+    height: 300px;
+}
+
+.add-to-cart {
+    background: white;
+    width: 200px;
+    height: 50px;
+}
+
+.add-to-cart:hover {
+    cursor: pointer;
+}
+
+.add-to-cart h4 {
+    font-size: 16px;
+    color: #B88E2F;
+    font-family: "Poppins", sans-serif;
+    border-style: none !important;
+}
+
+.add-to-cart:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.path_product {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: #F9F1E7; 
+    width: 100%;
+    height: 60px;
+    padding: 20px 0px 20px 60px;
+}
+
+.path_product a {
+    display: flex;
+}
+
+.path_product div {
+    display: flex;
+    align-items: center;
+}
+
+.path_product div:hover {
+    cursor: pointer;
+    color: rgb(66, 66, 66);
+}
+
+.info_product {
+    margin: 20px;
+}
+
+.info_product_correct {
+    display: flex;
+}
+
+.info_product_gallery {
+    width: 35%;
+    height: 820px;
+    display: flex;
+    padding: 60px 0px 60px 120px;
+    gap: 30px;
+}
+
+.info_product_text {
+    width: 65%;
+    padding: 45px;
+    height: 820px;
+}
+
+.info_blocks_column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info_blocks_column_text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.big_info_block {
+    background: red;
+    width: 420px;
+    height: 500px;
+}
+
+.info_block {
+    width: 80px;
+    height: 80px;
+    background: red;
 }
 
 /* ----- */

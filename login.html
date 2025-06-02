@@ -9,17 +9,13 @@
 <body>
     <div class="info_center">
         <h1 class="info_h1">LOGIN</h1>
-        <form action="/button_shop" method="POST">
-            <div class="login_column">
-                <label for="login"><h3></h3>Login</label>
-                <input type="text" id="login" name="login" required><br><br>
-            </div>
-            <div class="login_column">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required><br><br>
-            </div>
+        <form id="login_form">
+            <input type="text" id="username" placeholder="Логин" required>
+            <input type="password" id="password" placeholder="Пароль" required>
+            <button type="submit" class="button_login">Войти</button>
         </form>
-        <button class="button_shop">Main</button>
+        <p id="error" style="color: red;"></p>
     </div>
+    <script src="user.js"></script>
 </body>
 </html>
