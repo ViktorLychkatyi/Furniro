@@ -13,18 +13,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const username = document.getElementById("username").value.trim();
       const password = document.getElementById("password").value;
-
-      // Валидация: пустые поля
+      
       if (!username || !password) {
         error.textContent = "Введите логин и пароль";
         return;
       }
 
-      // Поиск пользователя
       const user = users.find(u => u.login === username && u.password === password);
 
       if (user) {
-        // Успешный вход
         localStorage.setItem('user', JSON.stringify(user));
         window.location.href = 'index.html';
       } else {

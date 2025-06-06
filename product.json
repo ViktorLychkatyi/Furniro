@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Chair",
+        "subtitle": "Comfortable wooden chair",
+        "price": 50,
+        "oldPrice": 70,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    },
+    {
+        "id": 2,
+        "title": "Table",
+        "subtitle": "Stylish dining table",
+        "price": 120,
+        "oldPrice": 150,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    },
+    {
+        "id": 3,
+        "title": "Sofa",
+        "subtitle": "Luxurious leather sofa",
+        "price": 300,
+        "oldPrice": 400,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    },
+    {
+        "id": 4,
+        "title": "Lamp",
+        "subtitle": "Modern LED lamp",
+        "price": 30,
+        "oldPrice": 50,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    },
+    {
+        "id": 5,
+        "title": "Bookshelf",
+        "subtitle": "Spacious wooden bookshelf",
+        "price": 200,
+        "oldPrice": 250,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    },
+    {
+        "id": 6,
+        "title": "Desk",
+        "subtitle": "Ergonomic office desk",
+        "price": 150,
+        "oldPrice": 180,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    },   
+    {
+        "id": 7,
+        "title": "Bed",
+        "subtitle": "Queen size bed with storage",
+        "price": 400,
+        "oldPrice": 500,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    },
+    {
+        "id": 8,
+        "title": "Wardrobe",
+        "subtitle": "Large wardrobe with mirror",
+        "price": 350,
+        "oldPrice": 450,
+        "image": "img/EZI5Q48cjkZCZj8u8ePvwUHPEe9lA1LS753INaKYudZBTGO6.webp",
+        "discount": -20
+    }
+]
